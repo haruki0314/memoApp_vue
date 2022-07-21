@@ -10,10 +10,11 @@
 <script>
 export default {
   name: "MemoForm",
+  props: ["memo"],
   data() {
     return {
-      title: "",
-      content: "",
+      title: this.memo.title,
+      content: this.memo.content,
     };
   },
   methods: {
@@ -22,6 +23,11 @@ export default {
         title: this.title,
         content: this.content,
       };
+
+      if (this.memo.id) {
+        memo.id = this.memo.id;
+      }
+
       this.$store.commit("save", memo);
       this.$router.push("/");
     },

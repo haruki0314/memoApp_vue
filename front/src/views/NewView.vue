@@ -1,5 +1,5 @@
 <template>
-  <MemoForm />
+  <MemoForm memo="" />
 </template>
 <script>
 import MemoForm from "../components/MemoForm.vue";
