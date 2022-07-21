@@ -1,5 +1,5 @@
 <template>
-  <h2>New</h2>
+  <h2>新規メモ</h2>
   <div><input type="text" v-model="title" /></div>
   <div><textarea v-model="content"></textarea></div>
   <div class="center">

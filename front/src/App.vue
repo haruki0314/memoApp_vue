@@ -1,8 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/new">New</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">メモ一覧</router-link> |
+    <router-link to="/new">新規メモ作成</router-link>
   </nav>
   <router-view />
 </template>
