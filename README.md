@@ -12,7 +12,6 @@
 --
 
 * vueCli
-* vueUi
 * vueX
 * vueRouter
 
